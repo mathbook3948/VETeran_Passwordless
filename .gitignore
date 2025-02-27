@@ -137,5 +137,6 @@ $RECYCLE.BIN/
 
 **/config.properties
 **/application.properties
+.vscode
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,eclipse,windows,java
