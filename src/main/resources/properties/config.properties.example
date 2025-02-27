@@ -1,0 +1,23 @@
+#Application server ID
+passwordless.corpId = 
+passwordless.serverId = 
+
+
+#Application server key (Only displayed once when changed)
+passwordless.serverKey = 
+
+
+#URL to go to Simple UI screen (passwordless server - nginx)
+passwordless.simpleAutopasswordUrl = 
+
+
+#Authentication server domain
+passwordless.restCheckUrl = 
+
+
+#Push request server to connect to Websocket
+passwordless.pushConnectorUrl = 
+
+
+#Passwordless Recommended Specifications (ID/Password login prohibited when registering Passwordless) - 1: Applied, 0: Not Applied
+passwordless.recommend = 1

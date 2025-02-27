@@ -1,0 +1,6 @@
+{
+    "java.compile.nullAnalysis.mode": "disabled",
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.jdt.ls.lombokSupport.enabled": true,
+    "java.configuration.updateBuildConfiguration": "automatic"
+}

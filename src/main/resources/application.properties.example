@@ -1,0 +1,32 @@
+# Server Port Configuration
+server.port=80
+
+# View Configuration
+spring.mvc.view.prefix=/WEB-INF/views/
+spring.mvc.view.suffix=.jsp
+spring.thymeleaf.enabled=false
+
+# Language Settings
+spring.messages.basename=i18n
+spring.messages.encoding=UTF-8
+
+# Logging Level (trace > debug > info > warn > error)
+logging.level.root=info
+
+spring.datasource.url=YOUR_DATABASE_URL
+spring.datasource.username=YOUR_DATABASE_USERNAME
+spring.datasource.password=YOUR_DATABASE_PASSWORD
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+# HikariCP Connection Pool Size Configuration
+spring.datasource.hikari.maximum-pool-size=5
+
+# Mybatis Mapping
+mybatis.type-aliases-package=com.pwl
+
+# Mybatis mapper XML path (** can be used for all subdirectories)
+mybatis.mapper-locations=classpath:/mapper/**/*.xml
+
+jwt.userTokenExpiration=9999999
+
+jwt.secret=fdgveffewefvdewefgfdwerfgbgr43edfgtrerfgtrdfgtredfgtredfgtrwree
