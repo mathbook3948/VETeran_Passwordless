@@ -18,10 +18,7 @@ import lombok.extern.slf4j.Slf4j;
 public class ApiInterceptor implements HandlerInterceptor {
 
 	@Override
-    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-    	response.addHeader("Access-Control-Allow-Origin", "*"); // Specify Allowed Domains
-    	//log.info("############### ApiInterceptor: preHandle");
-    	
+    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {    	
     	HttpSession session = request.getSession(false);
 
     	String lang = request.getParameter("lang");
